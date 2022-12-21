@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-a = float( input('Введите число а: ') )
-b = float( input('Введите число b: ') )
+a = float(input('Введите число а: '))
+b = float(input('Введите число b: '))
 
 print(
      '\nСложение:', a + b,
