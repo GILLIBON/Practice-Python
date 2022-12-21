@@ -1,11 +1,14 @@
-inventory = {'Двуручный стальной меч':4, 'Грубый баклер':3, 'Кольцо удачи':0.2, 'Шлем из кожи вепря':1.5, 'Зелье здоровья':0.3, 'Картофель':0.2}
+inventory = {'Двуручный стальной меч': 4, 'Грубый баклер': 3, 
+             'Кольцо удачи': 0.2, 'Шлем из кожи вепря': 1.5, 
+             'Зелье здоровья': 0.3, 'Картофель': 0.2
+             }
 bpvol = 10
 action = None
 
 while action != ('Стоп'):
-  print ('{0} предметов в рюкзаке\nВес: {1}/{2}\n' .format(len(inventory),sum(inventory.values()),bpvol))
+  print ('{0} предметов в рюкзаке\nВес: {1}/{2}\n' .format(len(inventory), sum(inventory.values()), bpvol))
   for key, value in inventory.items():
-    print('{0}, {1} кг' .format(key,value))
+    print('{0}, {1} кг' .format(key, value))
 
   action = input('\nВы хотите добавить или выбросить предмет? Введите + или -, либо "Стоп", чтобы выйти: ')
 
