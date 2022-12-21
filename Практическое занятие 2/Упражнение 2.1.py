@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+# !/usr/bin/python3
 
 a = float(input('Введите число а: '))
 b = float(input('Введите число b: '))
