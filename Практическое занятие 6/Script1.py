@@ -10,7 +10,7 @@ def bytes_to_list(blist):
         list.append(bytes.decode(i, encoding='utf-8'))
     return (list)
 
-list = ('Привет','я','пример','текста')
+list = ('Привет', 'я', 'пример', 'текста')
 blist = (list_to_bytes(list))
 
 print(list_to_bytes(list))
